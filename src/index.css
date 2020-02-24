@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background: #222020;
+  color: white;
+  height: 100px;
+  width: 100px;
+  font-size: xx-large;
 }
